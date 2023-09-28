@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Flowers",
+        "body": "Description 1",
+        "image": "https://i.pinimg.com/originals/25/90/a1/2590a1a6759841581e6e1ed7fc91376d.jpg",
+        "price": "78"
+    },
+    {
+        "title": "Picture",
+        "body": "Description 2",
+        "image": "https://cs12.pikabu.ru/post_img/big/2022/08/09/7/1660042588198544626.png",
+        "price": "53"
+    },
+    {
+        "title": "Big flowers",
+        "body": "Description 3",
+        "image": "https://i.pinimg.com/474x/d1/4f/66/d14f66ddf892b7406a2113e022698a6e.jpg",
+        "price": "43"
+
+    },
+    {
+        "title": "Horse",
+        "body": "Description 4",
+        "image": "https://visitfaroeislands.com/download/20210823-thrainn-266882_0_full.jpg",
+        "price": "106"
+
+    }
+]
