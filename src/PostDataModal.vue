@@ -51,16 +51,18 @@ export default {
             fetch('db.json', {
                 method: "POST",
                 body: JSON.stringify(this.postData)
-            }).then(() => {
+            }).then((response) => {
+                if(!response.ok) {
+                    throw new Error
+                }
                 this.$emit('update:showPostData', false)
                 for(let key in this.postData) {
                     key = ''
                 }
                 this.$emit('clearList', this.clearPurchList)
+                
             }).catch((error) => {
                 console.log(error)
-            }).finally (() => {
-                
             })
             
         }
